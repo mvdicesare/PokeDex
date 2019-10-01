@@ -14,6 +14,8 @@
 		262252652343BABF0099EB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262252642343BABF0099EB61 /* Assets.xcassets */; };
 		262252682343BABF0099EB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262252662343BABF0099EB61 /* LaunchScreen.storyboard */; };
 		262252732343BB190099EB61 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262252722343BB190099EB61 /* Pokemon.swift */; };
+		262252752343BFEB0099EB61 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262252742343BFEB0099EB61 /* PokemonController.swift */; };
+		26EB8CF62343CF90005138B5 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB8CF52343CF90005138B5 /* PokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		262252672343BABF0099EB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		262252692343BABF0099EB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262252722343BB190099EB61 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		262252742343BFEB0099EB61 /* PokemonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		26EB8CF52343CF90005138B5 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		262252712343BAF70099EB61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				262252742343BFEB0099EB61 /* PokemonController.swift */,
+				26EB8CF52343CF90005138B5 /* PokemonViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			files = (
 				262252732343BB190099EB61 /* Pokemon.swift in Sources */,
 				262252602343BABE0099EB61 /* ViewController.swift in Sources */,
+				26EB8CF62343CF90005138B5 /* PokemonViewController.swift in Sources */,
 				2622525C2343BABE0099EB61 /* AppDelegate.swift in Sources */,
 				2622525E2343BABE0099EB61 /* SceneDelegate.swift in Sources */,
+				262252752343BFEB0099EB61 /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35K2XL3AM;
-				INFOPLIST_FILE = PokeDex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDex/Resources /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35K2XL3AM;
-				INFOPLIST_FILE = PokeDex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDex/Resources /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -24,7 +24,7 @@ struct Pokemon: Decodable {
 
 }
 struct AbilityDict: Decodable {
-    let ability: [Ability]
+    let ability: Ability
     
     struct Ability: Decodable {
             let name: String
